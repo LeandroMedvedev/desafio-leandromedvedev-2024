@@ -8,14 +8,22 @@
     "lint": "eslint --fix .",
     "format": "prettier --write ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeandroMedvedev/desafio-leandromedvedev-2024"
+  },
+  "author": "Leandro Medeiros <medvedevleandro@outlook.com>",
   "keywords": [
     "desafio",
     "técnico",
     "DB"
   ],
-  "author": "Leandro Medeiros <medvedevleandro@outlook.com>",
-  "license": "ISC",
-  "homepage": "https://github.com/LeandroMedvedev/desafio-leandromedvedev-2024",
+  "licenses": [
+    {
+      "type": "ISC",
+      "url": "https://www.isc.org/licenses/"
+    }
+  ],
   "devDependencies": {
     "@eslint/js": "^9.10.0",
     "eslint": "^9.10.0",
